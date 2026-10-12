@@ -42,14 +42,13 @@
 #include <sys/types.h>
 
 #ifdef _WIN32
-#include <windows.h>
 #include <shlwapi.h>
+#include <windows.h>
 #ifdef _MSC_VER
 #pragma comment(lib, "Shlwapi.lib")
 #endif
-#include <shlobj.h>
-
 #include <direct.h>
+#include <shlobj.h>
 #else
 #include <dirent.h>
 #include <ftw.h>
