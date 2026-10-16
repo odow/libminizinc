@@ -1,4 +1,4 @@
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
 
 if(WIN32)
   # _WIN32_WINNT is set for <windows.h> such that the Vista+ process APIs used
